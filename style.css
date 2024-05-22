@@ -1,0 +1,33 @@
+body {
+    background-color: blue;
+    text-align: center;
+}
+
+h1 {
+    color: cyan;
+    background-color: blue;
+}
+
+#show_sketch {
+    float: right
+}
+
+canvas {
+border:5px solid cyan;
+border-radius: 20px;
+animation-name:blucian;
+animation-duration: 4s;
+margin-top: 50px;;
+animation-iteration-count: infinite;
+}
+
+@keyframes blucian {
+    from{box-shadow: 2px 2px 38px white;}
+    to{box-shadow: 1px 1px 38px cyan;}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size:2.5px
+}
